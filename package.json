@@ -1,0 +1,20 @@
+{
+    "name": "clg",
+    "displayName": "clg",
+    "description": "not boring console.log shorcuts",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.47.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}
