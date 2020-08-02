@@ -13,7 +13,7 @@
     "repository": {
         "url": "https://github.com/alexkev/clg"
     },
-    "icon": "./images/icon.png",
+    "icon": "images/icon.png",
     "contributes": {
         "snippets": [
             {

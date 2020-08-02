@@ -10,7 +10,7 @@ clg: a plentiful amount of console.log() snippets
 
 Demo on [stackblitz](https://stackblitz.com/edit/clg?embed=1&file=index.ts&hideExplorer=1&hideNavigation=1&view=editor "a live demp of the clg snippets"). No install required! 👍 👍
 
-![clg demo gif](./images/clg.gif)
+![clg demo gif](images/clg.gif)
 
 |      Prefix | Method                                                                                                                                                                                                                                                                                                                |
 | ----------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
