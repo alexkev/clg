@@ -1,65 +1,49 @@
-# clg
+# clg - console.log snippets
 
-This is the README for your extension "clg". After writing up a brief description, we recommend including the following sections.
+clg: a plentiful amount of console.log() snippets
+
+-   Intutive shortcuts
+-   Styled console.log's (yes, you can do that 😉)
+-   Playful coding GIFs!
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+Demo on [stackblitz](https://stackblitz.com/edit/clg?embed=1&file=index.ts&hideExplorer=1&hideNavigation=1&view=editor "a live demp of the clg snippets"). No install required! 👍 👍
 
-For example if there is an image subfolder under your extension project workspace:
+![clg demo gif](./images/clg.gif)
 
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
-
-## Requirements
-
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
-
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
--   `myExtension.enable`: enable/disable this extension
--   `myExtension.thing`: set to `blah` to do something
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
+|      Prefix | Method                                                                                                                                                                                                                                                                                                                |
+| ----------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|      `clg→` | `console.log("%cclg.js line:13 " + Object.keys({ car })[0] + "", "color: blue", car);`                                                                                                                                                                                                                                |
+| `clghello→` | `console.log("%cHello clg.js", "background: green; color: white; display: block;");`                                                                                                                                                                                                                                  |
+|   `clgerr→` | `console.log("%cerror clg.js", "color: red; display: block; width: 100%;", error);`                                                                                                                                                                                                                                   |
+|     `clgr→` | `console.log("%c Rainbowww!", "font-weight: bold; font-size: 50px;color: red; text-shadow: 3px 3px 0 rgb(217,31,38) , 6px 6px 0 rgb(226,91,14) , 9px 9px 0 rgb(245,221,8) , 12px 12px 0 rgb(5,148,68) , 15px 15px 0 rgb(2,135,206) , 18px 18px 0 rgb(4,77,145) , 21px 21px 0 rgb(42,21,113); margin-bottom: 12px;");` |
+|   `clghuh→` | `console.log("%c ", "font-size: 1px; padding: 166.5px 250px; background-size: 500px 333px; background: no-repeat url(https://i.cloudup.com/Zqeq2GhGjt-3000x3000.jpeg);");`                                                                                                                                            |
+|     `clgg→` | `console.log("%c ", "font-size: 1px; padding: 240px 123.5px; background-size: 247px 480px; background: no-repeat url(https://i2.wp.com/i.giphy.com/media/11ZSwQNWba4YF2/giphy-downsized.gif?w=770&amp;ssl=1);");`                                                                                                     |
+| `clgclbrt→` | `console.log("%c ", "font-size: 1px; padding: 125px 125px; background-size: 250px 250px; background: no-repeat url(https://i2.wp.com/i.giphy.com/media/12BYUePgtn7sis/giphy-downsized.gif?w=770&amp;ssl=1);");`                                                                                                       |
+|     `clgc→` | `console.log("%c ", "font-size: 1px; padding: 215px 385px; background-size: 770px 430px; background: no-repeat url(https://i0.wp.com/i.giphy.com/media/ZVik7pBtu9dNS/giphy-downsized.gif?w=770&amp;ssl=1);");`                                                                                                        |
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
+Welcome, we are brand new and in beta!
+Feel to free to fork and if I like it I'll merge it in.
 
 Initial release of ...
 
-### 1.0.1
+### 0.0.1
 
-Fixed issue #.
+## Known Issues
 
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
--   Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
--   Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
--   Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-### For more information
-
--   [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
--   [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+None, we're the new guys.
 
 **Enjoy!**
+
+Support Open Source Code by buying me a drink ⚡🥤 😉.
+
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=axel720%40gmail.com&currency_code=USD&source=url)
+
+# CREDIT
+
+Rainbow clg : [Mahesh Haldar](https://hackernoon.com/styling-logs-in-browser-console-2ec0807dc91a)
+
+background image in clg : [BrunoLM](https://stackoverflow.com/questions/26283936/stylized-console-logging)

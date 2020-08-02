@@ -2,28 +2,31 @@
     "Simple Console Log Shorcut for JS Objects": {
         "prefix": "clg",
         "body": [
-            "console.log('%c$4${TM_FILENAME} line:${TM_LINE_NUMBER} ' + Object.keys({$1})[0]+ '$3', 'color: blue', ${1:Object})$0"
+            "console.log('%c$4${TM_FILENAME} ${5:line:${TM_LINE_NUMBER}} ' + Object.keys({$1})[0]+ '$3', 'color: blue', ${1:Object});"
         ],
-        "description": "Simple Console Log Shorcut for JS Objects",
-        "scope": "typescript,javascript"
+        "description": "Simple Console Log Shorcut for JS Objects"
     },
 
     "Conosle Log Hello": {
         "prefix": "clghello",
-        "body": ["console.log(\"%cHello ${1:${TM_FILENAME}}\", 'background: green; color: white; display: block;')"],
+        "body": [
+            "console.log('%cHello ${1:${TM_FILENAME}} ${2:line:${TM_LINE_NUMBER}} $3', 'background: green; color: white; display: block;');"
+        ],
         "description": "Need to see it a function is being called? Use this: clghello"
     },
 
     "Conosle Log Error": {
         "prefix": "clgerr",
-        "body": ["console.log(\"%cerror ${1:${TM_FILENAME}}\", 'color: red; display: block; width: 100%;', error)"],
+        "body": [
+            "console.log('%cerror ${1:${TM_FILENAME}} ${2:line:${TM_LINE_NUMBER}} $3', 'color: red; display: block; width: 100%;', error);"
+        ],
         "description": "Find errors with style"
     },
 
     "Conosle Log Rainbow": {
         "prefix": "clgr",
         "body": [
-            "console.log('%c Rainbowww!', 'font-weight: bold; font-size: 50px;color: red; text-shadow: 3px 3px 0 rgb(217,31,38) , 6px 6px 0 rgb(226,91,14) , 9px 9px 0 rgb(245,221,8) , 12px 12px 0 rgb(5,148,68) , 15px 15px 0 rgb(2,135,206) , 18px 18px 0 rgb(4,77,145) , 21px 21px 0 rgb(42,21,113); margin-bottom: 12px;')"
+            "console.log('%c ${1:Rainbowww!}', 'font-weight: bold; font-size: 50px;color: red; text-shadow: 3px 3px 0 rgb(217,31,38) , 6px 6px 0 rgb(226,91,14) , 9px 9px 0 rgb(245,221,8) , 12px 12px 0 rgb(5,148,68) , 15px 15px 0 rgb(2,135,206) , 18px 18px 0 rgb(4,77,145) , 21px 21px 0 rgb(42,21,113); margin-bottom: 12px;');"
         ],
         "description": "You need a Rainbow in your code"
     },
@@ -31,7 +34,7 @@
     "Conosle Log huh": {
         "prefix": "clghuh",
         "body": [
-            "console.log('%c ', 'background: no-repeat url(https://i.cloudup.com/Zqeq2GhGjt-3000x3000.jpeg); font-size: 1px; padding: 166.5px 250px; background-size: 500px 333px;')"
+            "console.log('%c ', 'background: no-repeat url(https://i.cloudup.com/Zqeq2GhGjt-3000x3000.jpeg); font-size: 1px; padding: 166.5px 250px; background-size: 500px 333px;');"
         ],
         "description": "Confused?! so put a this guy in your code."
     },
@@ -39,15 +42,15 @@
     "Conosle Log Bug GIF": {
         "prefix": "clgg",
         "body": [
-            "console.log('%c ', 'font-size: 1px; padding: 240px 123.5px; background-size: 247px 480px; background: no-repeat url(https://i2.wp.com/i.giphy.com/media/11ZSwQNWba4YF2/giphy-downsized.gif?w=770&amp;ssl=1);')"
+            "console.log('%c ', 'font-size: 1px; padding: 240px 123.5px; background-size: 247px 480px; background: no-repeat url(https://i2.wp.com/i.giphy.com/media/11ZSwQNWba4YF2/giphy-downsized.gif?w=770&amp;ssl=1);');"
         ],
         "description": "Bugs, bugs, bugs and more bugs"
     },
 
     "Conosle Log It's Working!!! GIF": {
-        "prefix": "clg!",
+        "prefix": "clgclbrt",
         "body": [
-            "console.log('%c ', 'font-size: 1px; padding: 125px 125px; background-size: 250px 250px; background: no-repeat url(https://i2.wp.com/i.giphy.com/media/12BYUePgtn7sis/giphy-downsized.gif?w=770&amp;ssl=1);')"
+            "console.log('%c ', 'font-size: 1px; padding: 125px 125px; background-size: 250px 250px; background: no-repeat url(https://i2.wp.com/i.giphy.com/media/12BYUePgtn7sis/giphy-downsized.gif?w=770&amp;ssl=1);');"
         ],
         "description": "Celebrate your code works!"
     },
@@ -55,7 +58,7 @@
     "Conosle Log Coding GIF": {
         "prefix": "clgc",
         "body": [
-            "console.log('%c ', 'font-size: 1px; padding: 215px 385px; background-size: 770px 430px; background: no-repeat url(https://i0.wp.com/i.giphy.com/media/ZVik7pBtu9dNS/giphy-downsized.gif?w=770&amp;ssl=1);')"
+            "console.log('%c ', 'font-size: 1px; padding: 215px 385px; background-size: 770px 430px; background: no-repeat url(https://i0.wp.com/i.giphy.com/media/ZVik7pBtu9dNS/giphy-downsized.gif?w=770&amp;ssl=1);');"
         ],
         "description": "Coding GIF"
     }

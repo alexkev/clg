@@ -1,7 +1,7 @@
 {
     "name": "clg",
-    "displayName": "clg",
-    "description": "not boring console.log shorcuts",
+    "displayName": "clg - console.log snippets",
+    "description": "console.log() shortcuts that are not boring! intuitive snippets with css styling and funny GIFs",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.47.0"
@@ -9,6 +9,11 @@
     "categories": [
         "Snippets"
     ],
+    "publisher": "alexkev",
+    "repository": {
+        "url": "https://github.com/alexkev/clg"
+    },
+    "icon": "images/icon.png",
     "contributes": {
         "snippets": [
             {
