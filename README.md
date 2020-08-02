@@ -30,11 +30,11 @@ Feel to free to fork my [repo](https://github.com/alexkev/clg) and if I like it 
 
 Initial release of ...
 
+### 0.0.3
+
 ## GIFs
 
 If you want to add a GIF or a meme in your fork generate your image styles [here](https://stackblitz.com/edit/clg?embed=1&file=index.ts&hideExplorer=1&hideNavigation=1&view=editor)
-
-### 0.0.3
 
 ## Known Issues
 
