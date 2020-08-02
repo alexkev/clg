@@ -30,7 +30,7 @@ Feel to free to fork my [repo](https://github.com/alexkev/clg) and if I like it 
 
 Initial release of ...
 
-### 0.0.3
+### 0.0.4
 
 ## GIFs
 
