@@ -34,7 +34,7 @@ Initial release of ...
 
 If you want to add a GIF or a meme in your fork generate your image styles [here](https://stackblitz.com/edit/clg?embed=1&file=index.ts&hideExplorer=1&hideNavigation=1&view=editor)
 
-### 0.0.1
+### 0.0.3
 
 ## Known Issues
 
