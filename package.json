@@ -9,6 +9,13 @@
     "categories": [
         "Snippets"
     ],
+    "keywords": [
+        "console.log()",
+        "console",
+        "javscript",
+        "clg",
+        "styled console.log"
+    ],
     "publisher": "alexkev",
     "repository": {
         "url": "https://github.com/alexkev/clg"

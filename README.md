@@ -8,7 +8,7 @@ clg: a plentiful amount of console.log() snippets
 
 ## Features
 
-Demo on [stackblitz](https://stackblitz.com/edit/clg?embed=1&file=index.ts&hideExplorer=1&hideNavigation=1&view=editor "a live demp of the clg snippets"). No install required! 👍 👍
+Demo on [stackblitz](https://stackblitz.com/edit/clg?embed=1&file=index.ts&hideExplorer=1&hideNavigation=1&view=editor "a live demo of the clg snippets"). No install required! 👍 👍
 
 ![clg demo gif](images/clg.gif)
 
@@ -28,25 +28,17 @@ Demo on [stackblitz](https://stackblitz.com/edit/clg?embed=1&file=index.ts&hideE
 Welcome, we are brand new and in beta!
 Feel to free to fork my [repo](https://github.com/alexkev/clg) and if I like it I'll merge it in.
 
-Initial release of ...
-
-### 0.0.4
-
-## GIFs
-
-If you want to add a GIF or a meme in your fork generate your image styles [here](https://stackblitz.com/edit/clg?embed=1&file=index.ts&hideExplorer=1&hideNavigation=1&view=editor)
-
-## Known Issues
+### Known Issues
 
 None, we're the new guys.
 
-**Enjoy!**
+## Enjoy!
 
 Support Open Source Code by buying me a drink ⚡🥤 😉.
 
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=axel720%40gmail.com&currency_code=USD&source=url)
 
-#### CREDIT:
+### Credit:
 
 Rainbow clg : [Mahesh Haldar](https://hackernoon.com/styling-logs-in-browser-console-2ec0807dc91a)
 
