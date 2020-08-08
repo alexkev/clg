@@ -10,6 +10,9 @@
 /* These are the shortcuts! take them for a spin 
  * Press F12 to view console
 clg
+clgg
+clgbb
+clggb
 clghello
 clgerr
 clgr
@@ -20,7 +23,7 @@ clgc
 */
 
 const car = {
-    model: "camry",
+    model: "ferrari",
     year: "2020",
 };
 
@@ -28,8 +31,15 @@ const error = {
     results: false,
 };
 
-// clg - Simple Console Log Shorcut for JS Objects
-console.log("%cclg.js line:18 " + Object.keys({ car })[0] + "s are cool", "color: blue", car);
+// clg - Simple Console Log Shorcut for JS Objects - Blue Text"
+console.log("%cclg.js line:35 car", "color: #007acc;", car);
+// clgg - Simple Console Log Shorcut for JS Objects - Green Text"
+console.log("%cclg.js line:37 car", "color: #26bfa5;", car);
+// clgbb - Simple Console Log Shorcut for JS Objects - Blue Background"
+console.log("%cclg.js line:39 car", "color: white; background-color: #007acc;", car);
+// clggb - Simple Console Log Shorcut for JS Objects - Green Background"
+console.log("%cclg.js line:41 car", "color: white; background-color: #26bfa5;", car);
+
 // clghello - Need to see it a function is being called? Use this: clghello
 console.log("%cHello clg.js line:20 new code", "background: green; color: white; display: block;");
 // clgerr - Find errors with style
@@ -37,7 +47,7 @@ console.log("%cerror clg.js line:22 here", "color: red; display: block; width: 1
 // clgr - You need a Rainbow in your code
 console.log(
     "%c Alex was Here",
-    "font-weight: bold; font-size: 50px;color: red; text-shadow: 3px 3px 0 rgb(217,31,38) , 6px 6px 0 rgb(226,91,14) , 9px 9px 0 rgb(245,221,8) , 12px 12px 0 rgb(5,148,68) , 15px 15px 0 rgb(2,135,206) , 18px 18px 0 rgb(4,77,145) , 21px 21px 0 rgb(42,21,113); margin-bottom: 12px; padding: 2%",
+    "font-weight: bold; font-size: 50px;color: red; text-shadow: 3px 3px 0 rgb(217,31,38) , 6px 6px 0 rgb(226,91,14) , 9px 9px 0 rgb(245,221,8) , 12px 12px 0 rgb(5,148,68) , 15px 15px 0 rgb(2,135,206) , 18px 18px 0 rgb(4,77,145) , 21px 21px 0 rgb(42,21,113); margin-bottom: 12px; padding: 5%",
 );
 // clghuh - Confused?! so put a this guy in your code.
 console.log(

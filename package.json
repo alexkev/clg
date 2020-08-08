@@ -2,7 +2,7 @@
     "name": "clg",
     "displayName": "clg - console.log snippets",
     "description": "console.log() shortcuts that are not boring! intuitive snippets with css styling and funny GIFs",
-    "version": "0.0.6",
+    "version": "0.1.0",
     "engines": {
         "vscode": "^1.47.0"
     },
@@ -22,6 +22,20 @@
     },
     "icon": "images/icon.png",
     "contributes": {
+        "configurationDefaults": {
+            "[javascript]": {
+                "editor.suggest.snippetsPreventQuickSuggestions": true,
+                "editor.suggestSelection": "first",
+                "editor.tabCompletion": "on",
+                "editor.quickSuggestions": {
+                    "other": true,
+                    "comments": true,
+                    "strings": true
+                },
+                "editor.suggest.localityBonus": true,
+                "editor.wordBasedSuggestions": true
+            }
+        },
         "languages": [
             {
                 "id": "javascript",

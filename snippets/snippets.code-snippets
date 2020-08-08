@@ -2,15 +2,39 @@
     "Simple Console Log Shorcut for JS Objects": {
         "prefix": "clg",
         "body": [
-            "console.log('%c$4${TM_FILENAME} ${5:line:${TM_LINE_NUMBER}} ' + Object.keys({$1})[0]+ '$3', 'color: blue', ${1:Object});"
+            "console.log('%c${TM_FILENAME} line:${TM_LINE_NUMBER} ${1:object}$2', 'color: #007acc;', ${1:object});"
         ],
-        "description": "Simple Console Log Shorcut for JS Objects"
+        "description": "Simple Console Log Shorcut for JS Objects - Blue Text"
+    },
+
+    "Console Log Green Text": {
+        "prefix": "clgg",
+        "body": [
+            "console.log('%c${TM_FILENAME} line:${TM_LINE_NUMBER} ${1:Object}$2', 'color: #26bfa5;', ${1:Object});"
+        ],
+        "description": "Simple Console Log Shorcut for JS Objects - Green Text"
+    },
+
+    "Console Log Blue Background": {
+        "prefix": "clgbb",
+        "body": [
+            "console.log('%c${TM_FILENAME} line:${TM_LINE_NUMBER} ${1:Object}$2', 'color: white; background-color: #007acc;', ${1:Object});"
+        ],
+        "description": "Simple Console Log Shorcut for JS Objects - Blue Background"
+    },
+
+    "Console Log Green Background ": {
+        "prefix": "clggb",
+        "body": [
+            "console.log('%c${TM_FILENAME} line:${TM_LINE_NUMBER} ${1:Object}$2', 'color: white; background-color: #26bfa5;', ${1:Object});"
+        ],
+        "description": "Simple Console Log Shorcut for JS Objects - Green Background"
     },
 
     "Conosle Log Hello": {
         "prefix": "clghello",
         "body": [
-            "console.log('%cHello ${1:${TM_FILENAME}} ${2:line:${TM_LINE_NUMBER}} $3', 'background: green; color: white; display: block;');"
+            "console.log('%cHello ${TM_FILENAME} line:${TM_LINE_NUMBER} $1', 'background: green; color: white; display: block;');"
         ],
         "description": "Need to see it a function is being called? Use this: clghello"
     },
@@ -26,7 +50,7 @@
     "Conosle Log Rainbow": {
         "prefix": "clgr",
         "body": [
-            "console.log('%c ${1:Rainbowww!}', 'font-weight: bold; font-size: 50px;color: red; text-shadow: 3px 3px 0 rgb(217,31,38) , 6px 6px 0 rgb(226,91,14) , 9px 9px 0 rgb(245,221,8) , 12px 12px 0 rgb(5,148,68) , 15px 15px 0 rgb(2,135,206) , 18px 18px 0 rgb(4,77,145) , 21px 21px 0 rgb(42,21,113); margin-bottom: 12px;');"
+            "console.log('%c ${1:Rainbowww!}', 'font-weight: bold; font-size: 50px;color: red; text-shadow: 3px 3px 0 rgb(217,31,38) , 6px 6px 0 rgb(226,91,14) , 9px 9px 0 rgb(245,221,8) , 12px 12px 0 rgb(5,148,68) , 15px 15px 0 rgb(2,135,206) , 18px 18px 0 rgb(4,77,145) , 21px 21px 0 rgb(42,21,113); margin-bottom: 12px; padding: 5%;');"
         ],
         "description": "You need a Rainbow in your code"
     },
@@ -40,7 +64,7 @@
     },
 
     "Conosle Log Bug GIF": {
-        "prefix": "clgg",
+        "prefix": "clgbug",
         "body": [
             "console.log('%c ', 'font-size: 1px; padding: 240px 123.5px; background-size: 247px 480px; background: no-repeat url(https://i2.wp.com/i.giphy.com/media/11ZSwQNWba4YF2/giphy-downsized.gif?w=770&amp;ssl=1);');"
         ],
