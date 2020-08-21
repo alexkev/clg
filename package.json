@@ -45,6 +45,42 @@
                     ".ts",
                     ".tsx"
                 ]
+            },
+            {
+                "id": "javascript",
+                "extensions": [
+                    ".js",
+                    ".jsx",
+                    ".ts",
+                    ".tsx"
+                ]
+            },
+            {
+                "id": "javascriptreact",
+                "extensions": [
+                    ".js",
+                    ".jsx",
+                    ".ts",
+                    ".tsx"
+                ]
+            },
+            {
+                "id": "typescript",
+                "extensions": [
+                    ".js",
+                    ".jsx",
+                    ".ts",
+                    ".tsx"
+                ]
+            },
+            {
+                "id": "typescriptreact",
+                "extensions": [
+                    ".js",
+                    ".jsx",
+                    ".ts",
+                    ".tsx"
+                ]
             }
         ],
         "snippets": [
