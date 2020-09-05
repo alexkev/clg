@@ -1,6 +1,8 @@
 # Change Log
-
--   0.1.1 
+-   1.0.0
+    - Anouncement: [CLG EDITION: ES7 React/Redux/React-Native/JS snippets](https://marketplace.visualstudio.com/items?itemName=alexkev.clg-edition-es7-react-js-snippets) 
+    - Badges
+-   0.1.2
     - Update file extension & language mode support
 -   0.1.0
     -   clg - "console.log('%c$4${TM_FILENAME} ${5:line:${TM_LINE_NUMBER}} ' Object.keys({$1})[0]+ '$3', 'color: blue', \${1:Object});"
