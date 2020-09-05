@@ -1,5 +1,10 @@
 # clg - console.log snippets
 
+[![Version](https://vsmarketplacebadge.apphb.com/version-short/alexkev.clg.svg)](https://marketplace.visualstudio.com/items?itemName=alexkev.clg)
+[![Install](https://vsmarketplacebadge.apphb.com/installs-short/alexkev.clg.svg)](https://marketplace.visualstudio.com/items?itemName=alexkev.clg)
+[![Downloads](https://vsmarketplacebadge.apphb.com/downloads/alexkev.clg.svg)](https://marketplace.visualstudio.com/items?itemName=alexkev.clg)
+[![Ratings](https://vsmarketplacebadge.apphb.com/rating-short/alexkev.clg.svg)](https://marketplace.visualstudio.com/items?itemName=alexkev.clg)
+
 clg: a plentiful amount of console.log() snippets
 
 -   Intutive shortcuts
