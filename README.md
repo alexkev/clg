@@ -13,7 +13,7 @@ clg: a plentiful amount of console.log() snippets
 
 ## Announcements
 
-Checkout out my [CLG EDITION: ES7 React/Redux/React-Native/JS snippets](https://marketplace.visualstudio.com/items?itemName=alexkev.clg-edition-es7-react-js-snippets) Its removes conflicting clg snippets with dsznajder's ES7 React/Redux/React-Native/JS snippets
+Checkout out my [CLG EDITION: ES7 React/Redux/React-Native/JS snippets](https://marketplace.visualstudio.com/items?itemName=alexkev.clg-edition-es7-react-js-snippets). Its removes conflicting clg snippets with dsznajder's ES7 React/Redux/React-Native/JS snippets
 
 ## Features
 
@@ -36,13 +36,7 @@ Demo on [stackblitz](https://stackblitz.com/edit/clg?embed=1&file=index.ts&hideE
 |     `clgc→` | `console.log("%c ", "font-size: 1px; padding: 215px 385px; background-size: 770px 430px; background: no-repeat url(https://i0.wp.com/i.giphy.com/media/ZVik7pBtu9dNS/giphy-downsized.gif?w=770&amp;ssl=1);");`                                                                                                                    |
 
 ## Release Notes
-
-Welcome, we are brand new and in beta!
 Feel to free to fork my [repo](https://github.com/alexkev/clg) and if I like it I'll merge it in.
-
-### Known Issues
-
-None, we're the new guys.
 
 ## Enjoy!
 
