@@ -6,6 +6,10 @@ clg: a plentiful amount of console.log() snippets
 -   Styled console.log's (yes, you can do that 😉)
 -   Playful coding GIFs!
 
+## Announcements
+
+Checkout out my [CLG EDITION: ES7 React/Redux/React-Native/JS snippets](https://marketplace.visualstudio.com/items?itemName=alexkev.clg-edition-es7-react-js-snippets) Its removes conflicting clg snippets with dsznajder's ES7 React/Redux/React-Native/JS snippets
+
 ## Features
 
 Demo on [stackblitz](https://stackblitz.com/edit/clg?embed=1&file=index.ts&hideExplorer=1&hideNavigation=1&view=editor "a live demo of the clg snippets"). No install required! 👍 👍
