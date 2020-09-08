@@ -2,7 +2,7 @@
     "name": "clg",
     "displayName": "clg - console.log snippets",
     "description": "console.log() shortcuts that are not boring! intuitive snippets with css styling and funny GIFs",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "engines": {
         "vscode": "^1.47.0"
     },
