@@ -1,4 +1,6 @@
 # Change Log
+-   1.1.0
+    - clg JSON output 
 -   1.0.0
     - Anouncement: [CLG EDITION: ES7 React/Redux/React-Native/JS snippets](https://marketplace.visualstudio.com/items?itemName=alexkev.clg-edition-es7-react-js-snippets) 
     - Badges

@@ -6,7 +6,6 @@
         ],
         "description": "Simple Console Log Shorcut for JS Objects - Blue Text"
     },
-
     "Console Log Green Text": {
         "prefix": "clgg",
         "body": [
@@ -14,7 +13,6 @@
         ],
         "description": "Simple Console Log Shorcut for JS Objects - Green Text"
     },
-
     "Console Log Blue Background": {
         "prefix": "clgbb",
         "body": [
@@ -22,7 +20,6 @@
         ],
         "description": "Simple Console Log Shorcut for JS Objects - Blue Background"
     },
-
     "Console Log Green Background ": {
         "prefix": "clggb",
         "body": [
@@ -30,7 +27,6 @@
         ],
         "description": "Simple Console Log Shorcut for JS Objects - Green Background"
     },
-
     "Conosle Log Hello": {
         "prefix": "clghello",
         "body": [
@@ -38,7 +34,6 @@
         ],
         "description": "Need to see it a function is being called? Use this: clghello"
     },
-
     "Conosle Log Error": {
         "prefix": "clgerr",
         "body": [
@@ -46,7 +41,6 @@
         ],
         "description": "Find errors with style"
     },
-
     "Conosle Log Rainbow": {
         "prefix": "clgr",
         "body": [
@@ -54,7 +48,6 @@
         ],
         "description": "You need a Rainbow in your code"
     },
-
     "Conosle Log huh": {
         "prefix": "clghuh",
         "body": [
@@ -62,7 +55,6 @@
         ],
         "description": "Confused?! so put a this guy in your code."
     },
-
     "Conosle Log Bug GIF": {
         "prefix": "clgbug",
         "body": [
@@ -70,7 +62,6 @@
         ],
         "description": "Bugs, bugs, bugs and more bugs"
     },
-
     "Conosle Log It's Working!!! GIF": {
         "prefix": "clgclbrt",
         "body": [
@@ -78,11 +69,18 @@
         ],
         "description": "Celebrate your code works!"
     },
-
     "Conosle Log Coding GIF": {
         "prefix": "clgc",
         "body": [
             "console.log('%c ', 'font-size: 1px; padding: 215px 385px; background-size: 770px 430px; background: no-repeat url(https://i0.wp.com/i.giphy.com/media/ZVik7pBtu9dNS/giphy-downsized.gif?w=770&amp;ssl=1);');"
+        ],
+        "description": "Coding GIF"
+    },
+    "Conosle Log JSON Output": {
+        "prefix": "clgj",
+        "body": [
+            "console.log('%c${TM_FILENAME} line:${TM_LINE_NUMBER} ${1:object}$2', 'color: #007acc;'",
+            ", JSON.stringify(${1:object}, null, \"\\t\" ));"
         ],
         "description": "Coding GIF"
     }
