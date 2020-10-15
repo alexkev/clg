@@ -106,21 +106,21 @@
         "description": "Node ANSII Color Blue Background"
     },
     "Console Log Node ANSII Color RED Foreground": {
-        "prefix": "clgnrb",
+        "prefix": "clgnrfg",
         "body": [
             "console.log('\\x1b[31m%s\\x1b[0m', '${TM_FILENAME} line:${TM_LINE_NUMBER} ${1:object}$2', ${1:object});"
         ],
         "description": "Node ANSII Color RED Foreground"
     },
     "Console Log Node ANSII Color Green Foreground": {
-        "prefix": "clgngb",
+        "prefix": "clgngfg",
         "body": [
             "console.log('\\x1b[32m%s\\x1b[0m', '${TM_FILENAME} line:${TM_LINE_NUMBER} ${1:object}$2', ${1:object});"
         ],
         "description": "Node ANSII Color Green Foreground"
     },
     "Console Log Node ANSII Color Blue Foreground": {
-        "prefix": "clgnbb",
+        "prefix": "clgnbfg",
         "body": [
             "console.log('\\x1b[34m%s\\x1b[0m', '${TM_FILENAME} line:${TM_LINE_NUMBER} ${1:object}$2', ${1:object});"
         ],

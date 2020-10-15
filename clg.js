@@ -69,3 +69,7 @@ console.log(
     "%c ",
     "font-size: 1px; padding: 215px 385px; background-size: 770px 430px; background: no-repeat url(https://i0.wp.com/i.giphy.com/media/ZVik7pBtu9dNS/giphy-downsized.gif?w=770&amp;ssl=1);",
 );
+
+// ANSCII Colors
+console.log('\x1b[44m%s\x1b[0m', 'clg.js line:73 car.model', car.model);
+console.log('\x1b[34m%s\x1b[0m', 'clg.js line:74 car.model', car.model);
