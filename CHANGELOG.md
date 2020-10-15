@@ -1,4 +1,6 @@
 # Change Log
+-   1.2.0
+    - ANSII Color Styling for Node.js
 -   1.1.0
     - clg JSON output 
 -   1.0.0
