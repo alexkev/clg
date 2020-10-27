@@ -73,3 +73,9 @@ console.log(
 // ANSCII Colors
 console.log('\x1b[44m%s\x1b[0m', 'clg.js line:73 car.model', car.model);
 console.log('\x1b[34m%s\x1b[0m', 'clg.js line:74 car.model', car.model);
+
+console.log(
+    '%cclg.js line:77 car',
+    'color: #007acc;',
+    JSON.stringify(car, null, "\t")
+);

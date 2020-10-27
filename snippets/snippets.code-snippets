@@ -79,8 +79,11 @@
     "Console Log JSON String Output": {
         "prefix": "clgj",
         "body": [
-            "console.log('%c${TM_FILENAME} line:${TM_LINE_NUMBER} ${1:object}$2', 'color: #007acc;'",
-            ", JSON.stringify(${1:object}, null, \"\\t\" ));"
+            "console.log(",
+            "\t'%c${TM_FILENAME} line:${TM_LINE_NUMBER} ${1:object}$2',",
+            "\t'color: #007acc;',",
+            "\tJSON.stringify(${1:object}, null, \"\\t\" )",
+            ");"
         ],
         "description": "JSON String Output"
     },
