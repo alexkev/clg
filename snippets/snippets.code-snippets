@@ -84,6 +84,13 @@
         ],
         "description": "JSON String Output"
     },
+    "Console Log Node ANSII HELLO WORLD": {
+        "prefix": "clgnh",
+        "body": [
+            "console.log('\\x1b[44m%s\\x1b[0m', '${TM_FILENAME} line:${TM_LINE_NUMBER} HELLO WORLD',"
+        ],
+        "description": "Node ANSII Color RED Background"
+    },
     "Console Log Node ANSII Color RED Background": {
         "prefix": "clgnrb",
         "body": [
