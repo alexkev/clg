@@ -32,7 +32,14 @@
         "body": [
             "console.log('%cHello ${TM_FILENAME} line:${TM_LINE_NUMBER} $1', 'background: green; color: white; display: block;');"
         ],
-        "description": "Need to see it a function is being called? Use this: clghello"
+        "description": "Console logs ->  Hello ${TM_FILENAME} line:${TM_LINE_NUMBER} on Green Background"
+    },
+    "Console Log Node Hello": {
+        "prefix": "clgnhello",
+        "body": [
+             "console.log('\\x1b[42m%s\\x1b[0m', 'Hello ${TM_FILENAME} line:${TM_LINE_NUMBER} $1'"
+        ],
+        "description": "Node Console logs ->  Hello ${TM_FILENAME} line:${TM_LINE_NUMBER} on Green Background"
     },
     "Console Log Error": {
         "prefix": "clgerr",
@@ -86,6 +93,17 @@
             ");"
         ],
         "description": "JSON String Output"
+    },
+    "Console Log JSON String Output Node ANSII Blue": {
+        "prefix": "clgnj",
+        "body": [
+            "console.log(",
+            "\t'\\x1b[44m%s\\x1b[0m',",
+            "\t'${TM_FILENAME} line:${TM_LINE_NUMBER} ${1:object}$2',",
+            "\tJSON.stringify(${1:object}, null, \"\\t\" )",
+            ");"
+        ],
+        "description": "CLG: Node JSON String Output, Node ANSII Color Blue Background"
     },
     "Console Log Node ANSII HELLO WORLD": {
         "prefix": "clgnh",
