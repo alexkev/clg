@@ -1,4 +1,6 @@
 # Change Log
+-   1.3.3
+    - A few more snippets and added a snippet index to docs (auto-genrated) 
 -   1.2.0
     - ANSII Color Styling for Node.js
 -   1.1.0
