@@ -1,3 +1,6 @@
 {
-  "recommendations": ["alexkev.clg-edition-es7-react-js-snippets"]
+  "recommendations": [
+    "alexkev.clg-edition-es7-react-js-snippets",
+    "alexkev.clg"
+  ]
 }

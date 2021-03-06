@@ -32,26 +32,22 @@ Demo on [stackblitz](https://stackblitz.com/edit/clg?embed=1&file=index.ts&hideE
 | clgg | Simple Console Log Shorcut for JS Objects - Green Text | 
 | clg | Simple Console Log Shorcut for JS Objects - Blue Text | 
 | clgbb | Simple Console Log Shorcut for JS Objects - Blue Background | 
-| clghello | Console logs ->  Hello ${TM_FILENAME} line:${TM_LINE_NUMBER} on Green Background | 
 | clggb | Simple Console Log Shorcut for JS Objects - Green Background | 
+| clghello | Console logs ->  Hello ${TM_FILENAME} line:${TM_LINE_NUMBER} on Green Background | 
 | clgnhello | Node Console logs ->  Hello ${TM_FILENAME} line:${TM_LINE_NUMBER} on Green Background | 
-| clgerr | Find errors with style | 
-| clghuh | Confused?! so put a this guy in your code. | 
-| clgr | You need a Rainbow in your code | 
 | clgbug | Bugs, bugs, bugs and more bugs | 
+| clgerr | Find errors with style | 
 | clgc | Coding GIF | 
 | clgj | JSON String Output | 
-| clgclbrt | Celebrate your code works! | 
 | clgnj | CLG: Node JSON String Output, Node ANSII Color Blue Background | 
 | clgnh | Node ANSII Color RED Background | 
-| clgngb | Node ANSII Color Green Background | 
-| clgnbb | Node ANSII Color Blue Background | 
-| clgnrfg | Node ANSII Color RED Foreground | 
-| clgngfg | Node ANSII Color Green Foreground | 
 | clgnrb | Node ANSII Color RED Background | 
-| clgnbfg | Node ANSII Color Blue Foreground | 
-  
-  
+| clgngb | Node ANSII Color Green Background | 
+| clgnrfg | Node ANSII Color RED Foreground | 
+| clgnbb | Node ANSII Color Blue Background | 
+| clgngfg | Node ANSII Color Green Foreground | 
+| clgclbrt | Celebrate your code works! | 
+
 ## Release Notes
 Feel to free to fork my [repo](https://github.com/alexkev/clg) and if I like it I'll merge it in.
 
@@ -66,3 +62,6 @@ Support Open Source Code by buying me a drink ⚡🥤 😉.
 Rainbow clg : [Mahesh Haldar](https://hackernoon.com/styling-logs-in-browser-console-2ec0807dc91a)
 
 Background image in clg : [BrunoLM](https://stackoverflow.com/questions/26283936/stylized-console-logging)
+| clgnbfg | Node ANSII Color Blue Foreground | 
+| clgr | You need a Rainbow in your code | 
+| clghuh | Confused?! so put a this guy in your code. | 
