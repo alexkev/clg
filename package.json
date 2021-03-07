@@ -36,8 +36,7 @@
                 "editor.wordBasedSuggestions": true
             }
         },
-        "languages": [
-            {
+        "languages": [{
                 "id": "javascript",
                 "extensions": [
                     ".js",
@@ -74,8 +73,7 @@
                 ]
             }
         ],
-        "snippets": [
-            {
+        "snippets": [{
                 "language": "javascript",
                 "path": "./snippets/snippets.json"
             },

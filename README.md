@@ -29,27 +29,27 @@ Demo on [stackblitz](https://stackblitz.com/edit/clg?embed=1&file=index.ts&hideE
 
 | Prefix | Description | 
 | :---- | :------- | 
-| clgg | Simple Console Log Shorcut for JS Objects - Green Text | 
-| clg | Simple Console Log Shorcut for JS Objects - Blue Text | 
 | clgbb | Simple Console Log Shorcut for JS Objects - Blue Background | 
-| clghello | Console logs ->  Hello ${TM_FILENAME} line:${TM_LINE_NUMBER} on Green Background | 
-| clggb | Simple Console Log Shorcut for JS Objects - Green Background | 
-| clgnhello | Node Console logs ->  Hello ${TM_FILENAME} line:${TM_LINE_NUMBER} on Green Background | 
-| clgerr | Find errors with style | 
-| clghuh | Confused?! so put a this guy in your code. | 
-| clgr | You need a Rainbow in your code | 
 | clgbug | Bugs, bugs, bugs and more bugs | 
 | clgc | Coding GIF | 
-| clgj | JSON String Output | 
+| clgerr | Find errors with style | 
+| clggb | Simple Console Log Shorcut for JS Objects - Green Background | 
+| clgg | Simple Console Log Shorcut for JS Objects - Green Text | 
+| clghello | Console logs ->  Hello ${TM_FILENAME} line:${TM_LINE_NUMBER} on Green Background | 
 | clgclbrt | Celebrate your code works! | 
 | clgnj | CLG: Node JSON String Output, Node ANSII Color Blue Background | 
-| clgnh | Node ANSII Color RED Background | 
-| clgngb | Node ANSII Color Green Background | 
+| clgj | JSON String Output | 
 | clgnbb | Node ANSII Color Blue Background | 
-| clgnrfg | Node ANSII Color RED Foreground | 
+| clgnbfg | Node ANSII Color Blue Foreground | 
+| clgngb | Node ANSII Color Green Background | 
 | clgngfg | Node ANSII Color Green Foreground | 
 | clgnrb | Node ANSII Color RED Background | 
-| clgnbfg | Node ANSII Color Blue Foreground | 
+| clgnrfg | Node ANSII Color RED Foreground | 
+| clgnh | Node ANSII Color RED Background | 
+| clgnhello | Node Console logs ->  Hello ${TM_FILENAME} line:${TM_LINE_NUMBER} on Green Background | 
+| clgr | You need a Rainbow in your code | 
+| clghuh | Confused?! so put a this guy in your code. | 
+| clg | Simple Console Log Shorcut for JS Objects - Blue Text | 
   
   
 ## Release Notes
