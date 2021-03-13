@@ -45,7 +45,6 @@ Demo on [stackblitz](https://stackblitz.com/edit/clg?embed=1&file=index.ts&hideE
 | clgngfg | Node ANSII Color Green Foreground | 
 | clgnrb | Node ANSII Color RED Background | 
 | clgnrfg | Node ANSII Color RED Foreground | 
-| clgnh | Node ANSII Color RED Background | 
 | clgnhello | Node Console logs ->  Hello ${TM_FILENAME} line:${TM_LINE_NUMBER} on Green Background | 
 | clgr | You need a Rainbow in your code | 
 | clghuh | Confused?! so put a this guy in your code. | 

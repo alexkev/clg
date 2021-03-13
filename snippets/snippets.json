@@ -37,7 +37,7 @@
     "Console Log Node Hello": {
         "prefix": "clgnhello",
         "body": [
-             "console.log('\\x1b[42m%s\\x1b[0m', 'Hello ${TM_FILENAME} line:${TM_LINE_NUMBER} $1'"
+            "console.log('\\x1b[42m%s\\x1b[0m', 'Hello ${TM_FILENAME} line:${TM_LINE_NUMBER}$1');"
         ],
         "description": "Node Console logs ->  Hello ${TM_FILENAME} line:${TM_LINE_NUMBER} on Green Background"
     },
@@ -104,13 +104,6 @@
             ");"
         ],
         "description": "CLG: Node JSON String Output, Node ANSII Color Blue Background"
-    },
-    "Console Log Node ANSII HELLO WORLD": {
-        "prefix": "clgnh",
-        "body": [
-            "console.log('\\x1b[44m%s\\x1b[0m', '${TM_FILENAME} line:${TM_LINE_NUMBER} HELLO WORLD',"
-        ],
-        "description": "Node ANSII Color RED Background"
     },
     "Console Log Node ANSII Color RED Background": {
         "prefix": "clgnrb",
