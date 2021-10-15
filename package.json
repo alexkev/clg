@@ -48,17 +48,12 @@
             {
                 "id": "javascriptreact",
                 "extensions": [
-                    ".js",
-                    ".jsx",
-                    ".ts",
-                    ".tsx"
+                    ".jsx"
                 ]
             },
             {
                 "id": "typescript",
                 "extensions": [
-                    ".js",
-                    ".jsx",
                     ".ts",
                     ".tsx"
                 ]
@@ -66,9 +61,6 @@
             {
                 "id": "typescriptreact",
                 "extensions": [
-                    ".js",
-                    ".jsx",
-                    ".ts",
                     ".tsx"
                 ]
             }
