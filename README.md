@@ -29,13 +29,13 @@ Demo on [stackblitz](https://stackblitz.com/edit/clg?embed=1&file=index.ts&hideE
 
 | Prefix | Description | 
 | :---- | :------- | 
-| clgbb | Simple Console Log Shorcut for JS Objects - Blue Background | 
+| clgbb | Simple Console Log Shortcut for JS Objects - Blue Background | 
 | clgbug | Bugs, bugs, bugs and more bugs | 
 | clgc | Coding GIF | 
 | clgerr | Find errors with style | 
-| clggb | Simple Console Log Shorcut for JS Objects - Green Background | 
-| clgg | Simple Console Log Shorcut for JS Objects - Green Text | 
-| clghello | Console logs ->  Hello ${TM_FILENAME} line:${TM_LINE_NUMBER} on Green Background | 
+| clggb | Simple Console Log Shortcut for JS Objects - Green Background | 
+| clgg | Simple Console Log Shortcut for JS Objects - Green Text | 
+| clghello | Console logs ->  Hello ${RELATIVE_FILEPATH}:${TM_LINE_NUMBER} on Green Background | 
 | clgclbrt | Celebrate your code works! | 
 | clgnj | CLG: Node JSON String Output, Node ANSII Color Blue Background | 
 | clgj | JSON String Output | 
@@ -45,10 +45,10 @@ Demo on [stackblitz](https://stackblitz.com/edit/clg?embed=1&file=index.ts&hideE
 | clgngfg | Node ANSII Color Green Foreground | 
 | clgnrb | Node ANSII Color RED Background | 
 | clgnrfg | Node ANSII Color RED Foreground | 
-| clgnhello | Node Console logs ->  Hello ${TM_FILENAME} line:${TM_LINE_NUMBER} on Green Background | 
+| clgnhello | Node Console logs ->  Hello ${RELATIVE_FILEPATH}:${TM_LINE_NUMBER} on Green Background | 
 | clgr | You need a Rainbow in your code | 
 | clghuh | Confused?! so put a this guy in your code. | 
-| clg | Simple Console Log Shorcut for JS Objects - Blue Text | 
+| clg | Simple Console Log Shortcut for JS Objects - Blue Text | 
   
   
 ## Release Notes

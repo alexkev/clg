@@ -1,50 +1,50 @@
 {
-    "Simple Console Log Shorcut for JS Objects": {
+    "Simple Console Log Shortcut for JS Objects": {
         "prefix": "clg",
         "body": [
-            "console.log('%c${TM_FILENAME} line:${TM_LINE_NUMBER} ${1:object}$2', 'color: #007acc;', ${1:object});"
+            "console.log('%c${RELATIVE_FILEPATH}:${TM_LINE_NUMBER} ${1:object}$2', 'color: #007acc;', ${1:object});"
         ],
-        "description": "Simple Console Log Shorcut for JS Objects - Blue Text"
+        "description": "Simple Console Log Shortcut for JS Objects - Blue Text"
     },
     "Console Log Green Text": {
         "prefix": "clgg",
         "body": [
-            "console.log('%c${TM_FILENAME} line:${TM_LINE_NUMBER} ${1:Object}$2', 'color: #26bfa5;', ${1:Object});"
+            "console.log('%c${RELATIVE_FILEPATH}:${TM_LINE_NUMBER} ${1:Object}$2', 'color: #26bfa5;', ${1:Object});"
         ],
-        "description": "Simple Console Log Shorcut for JS Objects - Green Text"
+        "description": "Simple Console Log Shortcut for JS Objects - Green Text"
     },
     "Console Log Blue Background": {
         "prefix": "clgbb",
         "body": [
-            "console.log('%c${TM_FILENAME} line:${TM_LINE_NUMBER} ${1:Object}$2', 'color: white; background-color: #007acc;', ${1:Object});"
+            "console.log('%c${RELATIVE_FILEPATH}:${TM_LINE_NUMBER} ${1:Object}$2', 'color: white; background-color: #007acc;', ${1:Object});"
         ],
-        "description": "Simple Console Log Shorcut for JS Objects - Blue Background"
+        "description": "Simple Console Log Shortcut for JS Objects - Blue Background"
     },
     "Console Log Green Background ": {
         "prefix": "clggb",
         "body": [
-            "console.log('%c${TM_FILENAME} line:${TM_LINE_NUMBER} ${1:Object}$2', 'color: white; background-color: #26bfa5;', ${1:Object});"
+            "console.log('%c${RELATIVE_FILEPATH}:${TM_LINE_NUMBER} ${1:Object}$2', 'color: white; background-color: #26bfa5;', ${1:Object});"
         ],
-        "description": "Simple Console Log Shorcut for JS Objects - Green Background"
+        "description": "Simple Console Log Shortcut for JS Objects - Green Background"
     },
     "Console Log Hello": {
         "prefix": "clghello",
         "body": [
-            "console.log('%cHello ${TM_FILENAME} line:${TM_LINE_NUMBER} $1', 'background: green; color: white; display: block;');"
+            "console.log('%cHello ${RELATIVE_FILEPATH}:${TM_LINE_NUMBER} $1', 'background: green; color: white; display: block;');"
         ],
-        "description": "Console logs ->  Hello ${TM_FILENAME} line:${TM_LINE_NUMBER} on Green Background"
+        "description": "Console logs ->  Hello ${RELATIVE_FILEPATH}:${TM_LINE_NUMBER} on Green Background"
     },
     "Console Log Node Hello": {
         "prefix": "clgnhello",
         "body": [
-            "console.log('\\x1b[42m%s\\x1b[0m', 'Hello ${TM_FILENAME} line:${TM_LINE_NUMBER}$1');"
+            "console.log('\\x1b[42m%s\\x1b[0m', 'Hello ${RELATIVE_FILEPATH}:${TM_LINE_NUMBER}$1');"
         ],
-        "description": "Node Console logs ->  Hello ${TM_FILENAME} line:${TM_LINE_NUMBER} on Green Background"
+        "description": "Node Console logs ->  Hello ${RELATIVE_FILEPATH}:${TM_LINE_NUMBER} on Green Background"
     },
     "Console Log Error": {
         "prefix": "clgerr",
         "body": [
-            "console.log('%cerror ${1:${TM_FILENAME}} ${2:line:${TM_LINE_NUMBER}} $3', 'color: red; display: block; width: 100%;', error);"
+            "console.log('%cerror ${1:${RELATIVE_FILEPATH}} ${2:line:${TM_LINE_NUMBER}} $3', 'color: red; display: block; width: 100%;', error);"
         ],
         "description": "Find errors with style"
     },
@@ -87,7 +87,7 @@
         "prefix": "clgj",
         "body": [
             "console.log(",
-            "\t'%c${TM_FILENAME} line:${TM_LINE_NUMBER} ${1:object}$2',",
+            "\t'%c${RELATIVE_FILEPATH}:${TM_LINE_NUMBER} ${1:object}$2',",
             "\t'color: #007acc;',",
             "\tJSON.stringify(${1:object}, null, \"\\t\" )",
             ");"
@@ -99,7 +99,7 @@
         "body": [
             "console.log(",
             "\t'\\x1b[44m%s\\x1b[0m',",
-            "\t'${TM_FILENAME} line:${TM_LINE_NUMBER} ${1:object}$2',",
+            "\t'${RELATIVE_FILEPATH}:${TM_LINE_NUMBER} ${1:object}$2',",
             "\tJSON.stringify(${1:object}, null, \"\\t\" )",
             ");"
         ],
@@ -108,42 +108,42 @@
     "Console Log Node ANSII Color RED Background": {
         "prefix": "clgnrb",
         "body": [
-            "console.log('\\x1b[41m%s\\x1b[0m', '${TM_FILENAME} line:${TM_LINE_NUMBER} ${1:object}$2', ${1:object});"
+            "console.log('\\x1b[41m%s\\x1b[0m', '${RELATIVE_FILEPATH}:${TM_LINE_NUMBER} ${1:object}$2', ${1:object});"
         ],
         "description": "Node ANSII Color RED Background"
     },
     "Console Log Node ANSII Color Green Background": {
         "prefix": "clgngb",
         "body": [
-            "console.log('\\x1b[42m%s\\x1b[0m', '${TM_FILENAME} line:${TM_LINE_NUMBER} ${1:object}$2', ${1:object});"
+            "console.log('\\x1b[42m%s\\x1b[0m', '${RELATIVE_FILEPATH}:${TM_LINE_NUMBER} ${1:object}$2', ${1:object});"
         ],
         "description": "Node ANSII Color Green Background"
     },
     "Console Log Node ANSII Color Blue Background": {
         "prefix": "clgnbb",
         "body": [
-            "console.log('\\x1b[44m%s\\x1b[0m', '${TM_FILENAME} line:${TM_LINE_NUMBER} ${1:object}$2', ${1:object});"
+            "console.log('\\x1b[44m%s\\x1b[0m', '${RELATIVE_FILEPATH}:${TM_LINE_NUMBER} ${1:object}$2', ${1:object});"
         ],
         "description": "Node ANSII Color Blue Background"
     },
     "Console Log Node ANSII Color RED Foreground": {
         "prefix": "clgnrfg",
         "body": [
-            "console.log('\\x1b[31m%s\\x1b[0m', '${TM_FILENAME} line:${TM_LINE_NUMBER} ${1:object}$2', ${1:object});"
+            "console.log('\\x1b[31m%s\\x1b[0m', '${RELATIVE_FILEPATH}:${TM_LINE_NUMBER} ${1:object}$2', ${1:object});"
         ],
         "description": "Node ANSII Color RED Foreground"
     },
     "Console Log Node ANSII Color Green Foreground": {
         "prefix": "clgngfg",
         "body": [
-            "console.log('\\x1b[32m%s\\x1b[0m', '${TM_FILENAME} line:${TM_LINE_NUMBER} ${1:object}$2', ${1:object});"
+            "console.log('\\x1b[32m%s\\x1b[0m', '${RELATIVE_FILEPATH}:${TM_LINE_NUMBER} ${1:object}$2', ${1:object});"
         ],
         "description": "Node ANSII Color Green Foreground"
     },
     "Console Log Node ANSII Color Blue Foreground": {
         "prefix": "clgnbfg",
         "body": [
-            "console.log('\\x1b[34m%s\\x1b[0m', '${TM_FILENAME} line:${TM_LINE_NUMBER} ${1:object}$2', ${1:object});"
+            "console.log('\\x1b[34m%s\\x1b[0m', '${RELATIVE_FILEPATH}:${TM_LINE_NUMBER} ${1:object}$2', ${1:object});"
         ],
         "description": "Node ANSII Color Blue Foreground"
     }

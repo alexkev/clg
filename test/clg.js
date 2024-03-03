@@ -32,18 +32,18 @@ const error = {
 };
 
 // clg - Simple Console Log Shorcut for JS Objects - Blue Text"
-console.log("%cclg.js line:35 car", "color: #007acc;", car);
+console.log('%cclg.js:35 object', 'color: #007acc;', car);
 // clgg - Simple Console Log Shorcut for JS Objects - Green Text"
-console.log("%cclg.js line:37 car", "color: #26bfa5;", car);
+console.log("%cclg.js:37 car", "color: #26bfa5;", car);
 // clgbb - Simple Console Log Shorcut for JS Objects - Blue Background"
-console.log("%cclg.js line:39 car", "color: white; background-color: #007acc;", car);
+console.log("%cclg.js:39 car", "color: white; background-color: #007acc;", car);
 // clggb - Simple Console Log Shorcut for JS Objects - Green Background"
-console.log("%cclg.js line:41 car", "color: white; background-color: #26bfa5;", car);
+console.log("%cclg.js:41 car", "color: white; background-color: #26bfa5;", car);
 
 // clghello - Need to see it a function is being called? Use this: clghello
-console.log("%cHello clg.js line:20 new code", "background: green; color: white; display: block;");
+console.log("%cHello clg.js:20 new code", "background: green; color: white; display: block;");
 // clgerr - Find errors with style
-console.log("%cerror clg.js line:22 here", "color: red; display: block; width: 100%;", error);
+console.log("%cerror clg.js:22 here", "color: red; display: block; width: 100%;", error);
 // clgr - You need a Rainbow in your code
 console.log(
     "%c Alex was Here",
@@ -71,11 +71,11 @@ console.log(
 );
 
 // ANSCII Colors
-console.log('\x1b[44m%s\x1b[0m', 'clg.js line:73 car.model', car.model);
-console.log('\x1b[34m%s\x1b[0m', 'clg.js line:74 car.model', car.model);
+console.log('\x1b[44m%s\x1b[0m', 'clg.js:73 car.model', car.model);
+console.log('\x1b[34m%s\x1b[0m', 'clg.js:74 car.model', car.model);
 
 console.log(
-    '%cclg.js line:77 car',
+    '%cclg.js:77 car',
     'color: #007acc;',
     JSON.stringify(car, null, "\t")
 );

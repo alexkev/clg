@@ -1,6 +1,6 @@
 {
     "name": "clg",
-    "displayName": "clg - console.log snippets",
+    "displayName": "console.log snippets - clg",
     "description": "console.log() shortcuts that are not boring! intuitive snippets with css styling and funny GIFs",
     "version": "1.3.3",
     "engines": {
